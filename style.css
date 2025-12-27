@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #fdfbfb, #ebedee);
+  color: #1f2933;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #111b48, #212022);
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  margin: 12px 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 8px 18px;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background: white;
+  color: #764ba2;
+}
+
+/* LAYOUT */
+.container {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+/* CARDS */
+.card {
+  padding: 30px;
+  margin-bottom: 35px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+/* ACCENT BORDERS */
+.accent-purple { border-left: 6px solid #2f5859; }
+.accent-blue   { border-left: 6px solid #3b82f6; }
+.accent-pink   { border-left: 6px solid #ec4899; }
+.accent-green  { border-left: 6px solid #22c55e; }
+.accent-orange { border-left: 6px solid #f97316; }
+.accent-teal   { border-left: 6px solid #14b8a6; }
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.skill-box {
+  background: linear-gradient(135deg, #e0e7ff, #fdf2f8);
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* PROJECTS */
+.project {
+  margin-bottom: 15px;
+}
+
+/* LISTS */
+ul {
+  padding-left: 20px;
+}
+
+.two-column {
+  columns: 2;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #475569;
+}
